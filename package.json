@@ -8,12 +8,9 @@
   "license": "WTFPL",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "bookshelf": "^0.10.3",
-    "bookshelf-modelbase": "^2.10.3",
     "config": "^1.25.1",
     "express": "^4.15.2",
     "flauta": "^0.1.1",
-    "knex": "^0.12.9",
     "mysql": "^2.13.0",
     "ramda": "^0.23.0",
     "react": "^15.4.2"
