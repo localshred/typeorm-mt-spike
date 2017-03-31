@@ -1,7 +1,7 @@
 const TABLE_NAME = 'accounts'
 const ACCOUNT_TYPES = ['checking', 'savings']
 
-throw new Exception('not implemented')
+throw new Error('not implemented')
 
 exports.up = function(knex, Promise) {
   return knex.schema.alterTable(TABLE_NAME, function (t) {

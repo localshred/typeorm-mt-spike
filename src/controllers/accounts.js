@@ -1,6 +1,6 @@
 const R = require('ramda')
 
-throw new Exception('Not implemented')
+throw new Error('Not implemented')
 
 const wrapGetUser = (fn) => [(req, res, next) => {
   res.locals.user = null

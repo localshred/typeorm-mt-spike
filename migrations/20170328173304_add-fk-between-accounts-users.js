@@ -1,6 +1,6 @@
 const TABLE_NAME = 'accounts'
 
-throw new Exception('not implemented')
+throw new Error('not implemented')
 
 exports.up = function(knex, Promise) {
   return knex.schema.alterTable(TABLE_NAME, function (t) {

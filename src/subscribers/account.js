@@ -1,2 +1,2 @@
-throw new Exception('Not implemented')
+throw new Error('Not implemented')
 

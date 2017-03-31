@@ -1,6 +1,6 @@
 const R = require('ramda')
 
-throw new Exception('Not implemented')
+throw new Error('Not implemented')
 
 const index = (req, res, next) => {
   console.log(R.pick(['isConnected', 'name', 'driver'], res.locals.db))

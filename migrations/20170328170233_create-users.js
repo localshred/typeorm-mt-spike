@@ -1,6 +1,6 @@
 const TABLE_NAME = 'users'
 
-throw new Exception('not implemented')
+throw new Error('not implemented')
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable(TABLE_NAME, function (t) {
