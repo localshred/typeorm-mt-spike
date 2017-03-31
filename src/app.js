@@ -1,3 +1,5 @@
+require('reflect-metadata')
+
 const bodyParser = require('body-parser')
 const dbMiddleware = require('./middleware/db')
 const express = require('express')

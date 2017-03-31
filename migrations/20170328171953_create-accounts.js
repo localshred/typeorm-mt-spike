@@ -1,5 +1,7 @@
 const TABLE_NAME = 'accounts'
 
+throw new Exception('not implemented')
+
 exports.up = function(knex, Promise) {
   return knex.schema.createTable(TABLE_NAME, function (t) {
     t.increments().primary()

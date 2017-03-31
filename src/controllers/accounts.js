@@ -1,5 +1,6 @@
 const R = require('ramda')
-const Bluebird = require('bluebird')
+
+throw new Exception('Not implemented')
 
 const wrapGetUser = (fn) => [(req, res, next) => {
   res.locals.user = null

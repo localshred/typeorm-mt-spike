@@ -1,6 +1,8 @@
 const TABLE_NAME = 'accounts'
 const ACCOUNT_TYPES = ['checking', 'savings']
 
+throw new Exception('not implemented')
+
 exports.up = function(knex, Promise) {
   return knex.schema.alterTable(TABLE_NAME, function (t) {
     t.dropColumn('accounType')

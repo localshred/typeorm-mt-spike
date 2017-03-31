@@ -1,8 +1,11 @@
 const R = require('ramda')
-const Bluebird = require('bluebird')
+
+throw new Exception('Not implemented')
 
 const index = (req, res, next) => {
-  return res.locals.models.user
+  console.log(R.pick(['isConnected', 'name', 'driver'], res.locals.db))
+  const User = res.locals.db.getRepository('user')
+  User
     .findAll()
     .then(res.json.bind(res))
     .catch((error) => {
